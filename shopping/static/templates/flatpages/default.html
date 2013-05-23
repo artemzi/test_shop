@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block title %}Default{% endblock title %}
+
+
+{% block menu %}
+<li><a href="/">Home</a></li>
+<li><a href="/products">Products</a></li>
+<li><a href="/admin">Admin</a></li>
+<li><a href="/contact">Contact Us</a></li>
+<li class="active"><a href="/pages/about">About</a></li>
+<li><a href="/cart">Cart <span class="badge badge-info">{{ request.session.total_items }}</span></a></li>
+{% endblock menu %}
+
+{% block content %}
+<h3>{{ flatpage.title }}</h3>
+{{ flatpage.content }}
+
+{% endblock content %}

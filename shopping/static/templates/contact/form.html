@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block title %}Contact{% endblock title %}
+
+
+{% block menu %}
+<li><a href="/">Home</a></li>
+<li><a href="/products">Products</a></li>
+<li><a href="/admin">Admin</a></li>
+<li class="active"><a href="/contact">Contact Us</a></li>
+<li><a href="/pages/about">About</a></li>
+<li><a href="/cart">Cart <span class="badge badge-info">{{ request.session.total_items }}</span></a></li>
+{% endblock menu %}
+
+{% block content %}
+    <h3>Form: </h3>
+    <form action='.' method='POST'>{% csrf_token %}
+        {{ form.as_p}}
+
+        <button type='submit' class='btn'>Contact Us</button>
+    </form>
+
+{% endblock content %}

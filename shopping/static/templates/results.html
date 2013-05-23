@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+
+{% block title %}Results{% endblock title %}
+
+{% block menu %}
+<li><a href="/">Home</a></li>
+<li class="active"><a href="/products">Products</a></li>
+<li><a href="/admin">Admin</a></li>
+<li><a href="/contact">Contact Us</a></li>
+<li><a href="/pages/about">About</a></li>
+<li><a href="/cart">Cart <span class="badge badge-info">{{ request.session.total_items }}</span></a></li>
+{% endblock menu %}
+
+{% block content %}
+
+<div>
+    <h3>Products:</h3>
+    <table class="table">
+        <thead><th></th><th>Item</th><th>Description</th><th>Image</th></thead>
+        {% for query in queryset %}
+            <tr><td>{{ forloop.counter }}</td><td>{% if query.slug %}<a href="{{ query.slug }}"><i>{{ query }}</i></a></td>{% endif %}
+            <td>
+            {% if query.description %}
+                {{ query.description }}
+                {% else %}
+                <p>No description available</p>      
+            {% endif %}
+            </td>
+            {% if query.image1 %}
+                <td><img src="/media/{{ query.image1 }}" style="max-width:200px;max-height:200px;"/></td>
+            {% endif %}
+            </tr>
+        {% endfor %}
+
+    </table>
+</div>
+
+{% endblock content %}

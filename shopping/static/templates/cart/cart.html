@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% block title %}Cart{% endblock title %}
+
+{% block menu %}
+<li><a href="/">Home</a></li>
+<li><a href="/products">Products</a></li>
+<li><a href="/admin">Admin</a></li>
+<li><a href="/contact">Contact Us</a></li>
+<li><a href="/pages/about">About</a></li>
+<li class="active"><a href="/cart">Cart <span class="badge badge-info">{{ request.session.total_items }}</span></a></li>
+{% endblock menu %}
+
+{% block content %}
+{% if cart.active %}
+<table class="table">
+    
+    <thead><th>Item</th><th>Description</th></thead>
+    {% for product in cart.products.all %}
+    <tr><td>{{ product }}</td><td>{{ product.description }}</td></tr>
+
+    {% endfor %}
+<table>
+    <br />
+    <a href="delete" class="btn">Delete Cart</a>
+{% else %}
+{{ message }}
+{% endif %}
+{% endblock content %}

@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block title %}Home{% endblock title %}
+
+
+{% block menu %}
+<li class="active"><a href="/">Home</a></li>
+<li><a href="/products">Products</a></li>
+<li><a href="/admin">Admin</a></li>
+<li><a href="/contact">Contact Us</a></li>
+<li><a href="/pages/about">About</a></li>
+<li><a href="/cart">Cart <span class="badge badge-info">{{ request.session.total_items }}</span></a></li>
+{% endblock menu %}
+
+{% block content %}
+<!-- Jumbotron-->
+      <div class="jumbotron">
+        <h1>Marketing stuff!</h1>
+        <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+        <a class="btn btn-large btn-success" href="#">Get started today</a>
+      </div>
+
+      <hr>
+
+{% endblock content %}

@@ -1,0 +1,619 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"product",
+				"product_add"
+			],
+			[
+				"ex",
+				"except	keyword"
+			],
+			[
+				"def",
+				"def	Function"
+			],
+			[
+				"Contact",
+				"ContactUsForm"
+			],
+			[
+				"Model",
+				"ModelForm	ModelForm"
+			],
+			[
+				"auto",
+				"auto_now_add"
+			],
+			[
+				"Products",
+				"ProductsAdmin"
+			],
+			[
+				"nu",
+				"null"
+			],
+			[
+				"max",
+				"max_length"
+			],
+			[
+				"activi",
+				"activities_result"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "shopping/settings.py",
+			"settings":
+			{
+				"buffer_size": 5798,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "cart/admin.py",
+			"settings":
+			{
+				"buffer_size": 299,
+				"line_ending": "Unix",
+				"name": "admin.py"
+			}
+		},
+		{
+			"file": "shopping/urls.py",
+			"settings":
+			{
+				"buffer_size": 1123,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "cart/models.py",
+			"settings":
+			{
+				"buffer_size": 550,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "cart/views.py",
+			"settings":
+			{
+				"buffer_size": 1341,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "shopping/static/templates/cart/cart.html",
+			"settings":
+			{
+				"buffer_size": 685,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "shopping/static/templates/contact/form.html",
+			"settings":
+			{
+				"buffer_size": 639,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "shopping/static/templates/flatpages/default.html",
+			"settings":
+			{
+				"buffer_size": 522,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "shopping/static/templates/home.html",
+			"settings":
+			{
+				"buffer_size": 852,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "shopping/static/templates/product.html",
+			"settings":
+			{
+				"buffer_size": 617,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "shopping/static/templates/results.html",
+			"settings":
+			{
+				"buffer_size": 967,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 243.0,
+		"selected_items":
+		[
+			[
+				"html",
+				"HTML: Wrap Selection With Tag"
+			],
+			[
+				"ht",
+				"Set Syntax: HTML (Tcl)"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: p",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 139.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/artem/projects/shopping/shopping/static/templates/base.html",
+		"/home/artem/projects/shopping/shopping/static/templates/flatpages/default.html",
+		"/home/artem/projects/shopping/shopping/static/templates/contact/form.html",
+		"/home/artem/projects/shopping/shopping/static/templates/home.html",
+		"/home/artem/projects/shopping/shopping/static/templates/product.html",
+		"/home/artem/projects/shopping/shopping/static/templates/results.html",
+		"/media/Archive/arch/symfony-gu.ru/assets/js/less.min.js",
+		"/home/artem/projects/shopping/contact/forms.py",
+		"/home/artem/projects/shopping/contact/views.py",
+		"/home/artem/projects/shopping/contact/admin.py",
+		"/home/artem/projects/shopping/contact/models.py",
+		"/home/artem/projects/shopping/products/views.py",
+		"/home/artem/projects/shopping/products/admin.py",
+		"/home/artem/projects/shopping/products/models.py",
+		"/home/artem/projects/photoplanet/photoplanet/urls.py",
+		"/home/artem/projects/photoplanetnew/photoplanetnew/photoplanetnew/urls.py",
+		"/home/artem/projects/shopping/static/templates/base.html",
+		"/home/artem/projects/shopping/static/templates/products.html",
+		"/home/artem/projects/shopping/static/templates/products/products.html",
+		"/home/artem/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+		"/home/artem/projects/shopping/shopping/settings.py",
+		"/home/artem/projects/photoplanet/photoplanet/settings/settings.py",
+		"/home/artem/projects/untitled.html",
+		"/home/artem/projects/test.js",
+		"/home/artem/projects/appengine_project/main.py",
+		"/home/artem/projects/appengine_project/activities.html",
+		"/home/artem/projects/photoplanet-master/photoplanet/photoplanet/urls.py",
+		"/home/artem/projects/photoplanet-master/photoplanet/photoplanet/settings/base.py",
+		"/home/artem/projects/photoplanet-master/photoplanet/photoplanet/settings/local.py",
+		"/home/artem/projects/photoplanet-master/photoplanet/photoplanet/settings/instagram.sample.py",
+		"/home/artem/projects/photoplanet-master/photoplanet/feedback/urls.py",
+		"/home/artem/projects/photoplanet-master/photoplanet/feedback/views.py",
+		"/home/artem/projects/photoplanet-master/photoplanet/templates/feedback/feedback.html",
+		"/home/artem/projects/photoplanet-master/photoplanet/photoplanet/views.py",
+		"/home/artem/projects/photoplanet-master/photoplanet/photoplanet/templatetags/photoplanet_extra.py",
+		"/home/artem/projects/photoplanet-master/photoplanet/photoplanet/models.py",
+		"/home/artem/projects/photoplanet-master/photoplanet/feedback/models.py",
+		"/home/artem/PycharmProjects/photoplanet/requirements.txt",
+		"/home/artem/PycharmProjects/photoplanet/photoplanet/settings/flickr_settings.py",
+		"/home/artem/PycharmProjects/photoplanet/photoplanet/views.py",
+		"/home/artem/PycharmProjects/photoplanet/photoplanet/urls.py",
+		"/home/artem/PycharmProjects/photoplanet/gallery/templates/mosaic.html",
+		"/home/artem/PycharmProjects/photoplanet/gallery/templates/index.html",
+		"/home/artem/.gvfs/lecture6.zip/Examples/example1.py",
+		"/home/artem/.gvfs/lecture6.zip/Examples/decorator_maker.py"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"}),\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 10,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "shopping/settings.py",
+					"settings":
+					{
+						"buffer_size": 5798,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								168,
+								168
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "cart/admin.py",
+					"settings":
+					{
+						"buffer_size": 299,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								299,
+								299
+							]
+						],
+						"settings":
+						{
+							"auto_name": "admin.py",
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "shopping/urls.py",
+					"settings":
+					{
+						"buffer_size": 1123,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								985,
+								985
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "cart/models.py",
+					"settings":
+					{
+						"buffer_size": 550,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								392,
+								392
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "cart/views.py",
+					"settings":
+					{
+						"buffer_size": 1341,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1239,
+								1239
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "shopping/static/templates/cart/cart.html",
+					"settings":
+					{
+						"buffer_size": 685,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								86,
+								86
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "shopping/static/templates/contact/form.html",
+					"settings":
+					{
+						"buffer_size": 639,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								395,
+								395
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "shopping/static/templates/flatpages/default.html",
+					"settings":
+					{
+						"buffer_size": 522,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								395,
+								395
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "shopping/static/templates/home.html",
+					"settings":
+					{
+						"buffer_size": 852,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								392,
+								392
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "shopping/static/templates/product.html",
+					"settings":
+					{
+						"buffer_size": 617,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								380,
+								380
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "shopping/static/templates/results.html",
+					"settings":
+					{
+						"buffer_size": 967,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								945,
+								945
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 160.0,
+	"status_bar_visible": true
+}

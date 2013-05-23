@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block title %}Product{% endblock title %}
+
+
+{% block menu %}
+<li><a href="/">Home</a></li>
+<li><a href="/products">Products</a></li>
+<li><a href="/admin">Admin</a></li>
+<li><a href="/contact">Contact Us</a></li>
+<li><a href="/pages/about">About</a></li>
+<li><a href="/cart">Cart <span class="badge badge-info">{{ request.session.total_items }}</span></a></li>
+{% endblock menu %}
+
+{% block content %}
+<table class="table">
+<head><th colspan="2"><h3>{{ product }}</h3></th></head>
+<tr>
+{% if product.image1 %}
+    <td><img src="/media/{{ product.image1 }}" style="max-width:350px;float:left;margin-right:20px;" />
+{% endif %}{{ product.description }} <br />
+<a href="add">Add To Cart</a>
+</td>
+</tr>
+</table>
+{% endblock content %}
