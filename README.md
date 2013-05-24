@@ -1,3 +1,3 @@
-# decsription
+#  Description
 
-    just simple test project
+    simple test project
