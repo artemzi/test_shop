@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"HttpRes",
+				"HttpResponseRedirect"
+			],
+			[
+				"cart_",
+				"cart_exists"
+			],
+			[
 				"product",
 				"product_add"
 			],
@@ -56,67 +64,18 @@
 			}
 		},
 		{
-			"file": "cart/admin.py",
-			"settings":
-			{
-				"buffer_size": 299,
-				"line_ending": "Unix",
-				"name": "admin.py"
-			}
-		},
-		{
 			"file": "shopping/urls.py",
 			"settings":
 			{
-				"buffer_size": 1123,
+				"buffer_size": 1171,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "cart/models.py",
+			"file": "products/models.py",
 			"settings":
 			{
-				"buffer_size": 550,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "cart/views.py",
-			"settings":
-			{
-				"buffer_size": 1341,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "shopping/static/templates/cart/cart.html",
-			"settings":
-			{
-				"buffer_size": 685,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "shopping/static/templates/contact/form.html",
-			"settings":
-			{
-				"buffer_size": 639,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "shopping/static/templates/flatpages/default.html",
-			"settings":
-			{
-				"buffer_size": 522,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "shopping/static/templates/home.html",
-			"settings":
-			{
-				"buffer_size": 852,
+				"buffer_size": 546,
 				"line_ending": "Unix"
 			}
 		},
@@ -124,15 +83,7 @@
 			"file": "shopping/static/templates/product.html",
 			"settings":
 			{
-				"buffer_size": 617,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "shopping/static/templates/results.html",
-			"settings":
-			{
-				"buffer_size": 967,
+				"buffer_size": 851,
 				"line_ending": "Unix"
 			}
 		}
@@ -177,12 +128,16 @@
 	},
 	"file_history":
 	[
-		"/home/artem/projects/shopping/shopping/static/templates/base.html",
-		"/home/artem/projects/shopping/shopping/static/templates/flatpages/default.html",
+		"/home/artem/projects/shopping/shopping/static/templates/results.html",
+		"/home/artem/projects/shopping/shopping/static/templates/product.html",
+		"/home/artem/projects/shopping/cart/views.py",
+		"/home/artem/projects/shopping/cart/models.py",
+		"/home/artem/projects/shopping/shopping/static/templates/cart/cart.html",
+		"/home/artem/projects/shopping/cart/admin.py",
 		"/home/artem/projects/shopping/shopping/static/templates/contact/form.html",
 		"/home/artem/projects/shopping/shopping/static/templates/home.html",
-		"/home/artem/projects/shopping/shopping/static/templates/product.html",
-		"/home/artem/projects/shopping/shopping/static/templates/results.html",
+		"/home/artem/projects/shopping/shopping/static/templates/flatpages/default.html",
+		"/home/artem/projects/shopping/shopping/static/templates/base.html",
 		"/media/Archive/arch/symfony-gu.ru/assets/js/less.min.js",
 		"/home/artem/projects/shopping/contact/forms.py",
 		"/home/artem/projects/shopping/contact/views.py",
@@ -257,7 +212,7 @@
 	"groups":
 	[
 		{
-			"selected": 10,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -283,31 +238,32 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 765.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "cart/admin.py",
+					"file": "shopping/urls.py",
 					"settings":
 					{
-						"buffer_size": 299,
+						"buffer_size": 1171,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								299,
-								299
+								1037,
+								1037
 							]
 						],
 						"settings":
 						{
-							"auto_name": "admin.py",
-							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -317,18 +273,18 @@
 				},
 				{
 					"buffer": 2,
-					"file": "shopping/urls.py",
+					"file": "products/models.py",
 					"settings":
 					{
-						"buffer_size": 1123,
+						"buffer_size": 546,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								985,
-								985
+								546,
+								546
 							]
 						],
 						"settings":
@@ -345,209 +301,23 @@
 				},
 				{
 					"buffer": 3,
-					"file": "cart/models.py",
-					"settings":
-					{
-						"buffer_size": 550,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								392,
-								392
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "cart/views.py",
-					"settings":
-					{
-						"buffer_size": 1341,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1239,
-								1239
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "shopping/static/templates/cart/cart.html",
-					"settings":
-					{
-						"buffer_size": 685,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								86,
-								86
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "shopping/static/templates/contact/form.html",
-					"settings":
-					{
-						"buffer_size": 639,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								395,
-								395
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "shopping/static/templates/flatpages/default.html",
-					"settings":
-					{
-						"buffer_size": 522,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								395,
-								395
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "shopping/static/templates/home.html",
-					"settings":
-					{
-						"buffer_size": 852,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								392,
-								392
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 9,
 					"file": "shopping/static/templates/product.html",
 					"settings":
 					{
-						"buffer_size": 617,
+						"buffer_size": 851,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								380,
-								380
+								851,
+								851
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "shopping/static/templates/results.html",
-					"settings":
-					{
-						"buffer_size": 967,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								945,
-								945
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
