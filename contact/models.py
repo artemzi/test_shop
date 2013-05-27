@@ -14,3 +14,5 @@ class ContactUs(models.Model):
 
     class Meta:
         ordering = ['-timestamp']
+        verbose_name = ('Contuct Us')
+        verbose_name_plural = ('Contucting Us')

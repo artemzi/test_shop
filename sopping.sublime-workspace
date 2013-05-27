@@ -212,7 +212,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -238,7 +238,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 765.0,
+						"translation.y": 1785.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
