@@ -1,0 +1,10 @@
+Django==1.5.1
+PIL==1.1.7
+South==0.7.6
+argparse==1.2.1
+django-registration==0.9b1
+ipython==0.13.2
+psycopg2==2.5
+requests==1.2.3
+stripe==1.9.1
+wsgiref==0.1.2

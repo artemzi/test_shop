@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"uni",
+				"unique"
+			],
+			[
 				"HttpRes",
 				"HttpResponseRedirect"
 			],
@@ -59,7 +63,7 @@
 			"file": "shopping/settings.py",
 			"settings":
 			{
-				"buffer_size": 5798,
+				"buffer_size": 5815,
 				"line_ending": "Unix"
 			}
 		},
@@ -72,18 +76,26 @@
 			}
 		},
 		{
-			"file": "products/models.py",
+			"file": "customers/models.py",
 			"settings":
 			{
-				"buffer_size": 546,
+				"buffer_size": 343,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "shopping/static/templates/product.html",
+			"file": "customers/views.py",
 			"settings":
 			{
-				"buffer_size": 851,
+				"buffer_size": 26,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "customers/admin.py",
+			"settings":
+			{
+				"buffer_size": 318,
 				"line_ending": "Unix"
 			}
 		}
@@ -128,8 +140,12 @@
 	},
 	"file_history":
 	[
-		"/home/artem/projects/shopping/shopping/static/templates/results.html",
+		"/home/artem/projects/shopping/cart/stripe_info.py",
+		"/home/artem/projects/shopping/products/models.py",
 		"/home/artem/projects/shopping/shopping/static/templates/product.html",
+		"/home/artem/projects/shopping/contact/models.py",
+		"/home/artem/projects/shopping/contact/admin.py",
+		"/home/artem/projects/shopping/shopping/static/templates/results.html",
 		"/home/artem/projects/shopping/cart/views.py",
 		"/home/artem/projects/shopping/cart/models.py",
 		"/home/artem/projects/shopping/shopping/static/templates/cart/cart.html",
@@ -141,11 +157,8 @@
 		"/media/Archive/arch/symfony-gu.ru/assets/js/less.min.js",
 		"/home/artem/projects/shopping/contact/forms.py",
 		"/home/artem/projects/shopping/contact/views.py",
-		"/home/artem/projects/shopping/contact/admin.py",
-		"/home/artem/projects/shopping/contact/models.py",
 		"/home/artem/projects/shopping/products/views.py",
 		"/home/artem/projects/shopping/products/admin.py",
-		"/home/artem/projects/shopping/products/models.py",
 		"/home/artem/projects/photoplanet/photoplanet/urls.py",
 		"/home/artem/projects/photoplanetnew/photoplanetnew/photoplanetnew/urls.py",
 		"/home/artem/projects/shopping/static/templates/base.html",
@@ -212,7 +225,6 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
 				{
@@ -220,15 +232,15 @@
 					"file": "shopping/settings.py",
 					"settings":
 					{
-						"buffer_size": 5798,
+						"buffer_size": 5815,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								168,
-								168
+								4474,
+								4474
 							]
 						],
 						"settings":
@@ -238,7 +250,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1785.0,
+						"translation.y": 1683.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -255,8 +267,8 @@
 						"selection":
 						[
 							[
-								1037,
-								1037
+								453,
+								453
 							]
 						],
 						"settings":
@@ -273,25 +285,23 @@
 				},
 				{
 					"buffer": 2,
-					"file": "products/models.py",
+					"file": "customers/models.py",
 					"settings":
 					{
-						"buffer_size": 546,
+						"buffer_size": 343,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								546,
-								546
+								343,
+								343
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -301,23 +311,49 @@
 				},
 				{
 					"buffer": 3,
-					"file": "shopping/static/templates/product.html",
+					"file": "customers/views.py",
 					"settings":
 					{
-						"buffer_size": 851,
+						"buffer_size": 26,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								851,
-								851
+								26,
+								26
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage"
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "customers/admin.py",
+					"settings":
+					{
+						"buffer_size": 318,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								32,
+								32
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,

@@ -25,5 +25,6 @@ urlpatterns = patterns(
     # Static files
     (r'^media/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.MEDIA_ROOT}),
     ('^pages/', include('django.contrib.flatpages.urls')),
-    # (r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.STATIC_ROOT}),
+    (r'^accounts/', include('registration.backends.default.urls')),
+    (r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.STATIC_ROOT}),
 )

@@ -129,10 +129,14 @@ INSTALLED_APPS = (
     'django.contrib.admindocs',
     'django.contrib.flatpages',
     'south',
+    'registration',
     'products',
     'contact',
     'cart',
+    'customers',
 )
+
+ACCOUNT_ACTIVATION_DAYS = 7
 
 # A sample logging configuration. The only tangible logging
 # performed by this configuration is to send an email to
