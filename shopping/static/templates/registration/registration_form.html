@@ -21,10 +21,21 @@ return true;
 }
 </script>
 {% endblock %}
+
+{% block menu %}
+<li><a href="/">Home</a></li>
+<li><a href="/products">Products</a></li>
+<li><a href="/admin">Admin</a></li>
+<li><a href="/contact">Contact Us</a></li>
+<li><a href="/pages/about">About</a></li>
+<li><a href="/cart">Cart <span class="badge badge-info">{{ request.session.total_items }}</span></a></li>
+{% endblock menu %}
+
 {% block content %}
-<h2>The best teams help everyone improve.</h2>
+<div class="row-fluid">
+<h2>This is a greatest eComers site Ever... Don`t you think?</h2>
 <div class="span7 pull-left;" style="margin-left: 0;">
-<img class="pull-left" src="/static/img/team.jpg">
+<img class="pull-left" src="/media/product_images/yoga25.jpg">
 </div>
 <div class="inputform span5 pull-right">
 <table>
@@ -43,5 +54,6 @@ the <a href="/terms/"> Terms and Conditions</a></td></tr>
 text="Activation Email Pending..." class='btn btn-info'>Join</button></td>
 </form>
 </table>
+</div>
 </div>
 {% endblock %}
