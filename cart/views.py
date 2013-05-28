@@ -8,7 +8,7 @@ from products.models import Products
 
 def add(request, slug):
     product_add = Products.objects.get(slug=slug)
-    request.session.set_expiry(60)
+    request.session.set_expiry(30)
 
     try:
         active = request.session['cart']

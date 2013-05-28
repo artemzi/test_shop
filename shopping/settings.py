@@ -116,6 +116,21 @@ TEMPLATE_DIRS = (
     # Don't forget to use absolute paths, not relative paths.
 )
 
+AUTHENTICATION_BACKENDS = (
+    # 'social_auth.backends.contrib.vkontakte.VKontakteOAuth2Backend',
+    # 'social_auth.backends.facebook.FacebookBackend',
+    # 'social_auth.backends.google.GoogleOAuth2Backend',
+    # 'social_auth.backends.twitter.TwitterBackend',
+    # 'social_auth.backends.contrib.yandex.YandexOAuth2Backend',
+    # 'social_auth.backends.contrib.mailru.MailruBackend',
+    # 'social_auth.backends.contrib.odnoklassniki.OdnoklassnikiBackend',
+    'django.contrib.auth.backends.ModelBackend',
+)
+
+TEMPLATE_CONTEXT_PROCESSORS = (
+    "django.contrib.auth.context_processors.auth",
+)
+
 INSTALLED_APPS = (
     'django.contrib.auth',
     'django.contrib.contenttypes',

@@ -101,8 +101,12 @@
 
       <div class="masthead">
         <h3 class="muted">© eComerce Site<small class='pull-right'>
+          {% if user.is_active %}
+            <a href="/accounts/logout/">Logout</a>
+          {% else %}
           <a href="/accounts/login">Login</a>
           <a href="/accounts/register">Register</a>
+          {% endif %}
         </small></h3>
         <div class="navbar">
           <div class="navbar-inner">

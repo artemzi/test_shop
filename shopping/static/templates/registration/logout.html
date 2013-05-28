@@ -1,5 +1,17 @@
 {% extends "registration/registration_base.html" %}
 {% block title %}Logged out{% endblock %}
+
+{% block menu %}
+<li><a href="/">Home</a></li>
+<li><a href="/products">Products</a></li>
+<li><a href="/admin">Admin</a></li>
+<li><a href="/contact">Contact Us</a></li>
+<li><a href="/pages/about">About</a></li>
+<li><a href="/cart">Cart <span class="badge badge-info">{{ request.session.total_items }}</span></a></li>
+{% endblock menu %}
+
 {% block content %}
-Successfully logged out!
+<div class="row-fluid; pull-right;">
+<p>Successfully logged out!</p>
+</div>
 {% endblock %}
