@@ -14,7 +14,7 @@ urlpatterns = patterns(
     url(r'^contact/$', 'contact.views.contact'),
     url(r'^cart/$', 'cart.views.view'),
     url(r'^cart/delete$', 'cart.views.delete'),
-    # url(r'^shopping/', include('shopping.foo.urls')),
+    url(r'^checkout/', 'checkout.views.checkout'),
 
     # Uncomment the admin/doc line below to enable admin documentation:
     url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
