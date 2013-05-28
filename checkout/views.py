@@ -19,13 +19,20 @@ def checkout(request):
         return HttpResponseRedirect('/cart/')
 
     try:
-        info = request.user.get_profile()
+        user = User.objects.get(id=request.user.id)
     except:
-        user = User.objects.get(request.user)
-        info = userProfile(user)
-        info.save()
+        return HttpResponseRedirect('/')
 
+    profile, created = UserProfile.objects.get_or_create(user=user)
+    if created:
+        print "{} was created".format(profile)
 
+    try:
+        customer = stripe.Customer.retrieve(str(profile.stripe_customer_id))
+    except:
+        customer = stripe.Customer.create(email=request.user.email)
+        profile.stripe_customer_id = customer.id
+        profile.save()
 
     return render_to_response('checkout/checkout.html', locals(),
-                                context_instance=RequestContext(request))
+                            context_instance=RequestContext(request))
